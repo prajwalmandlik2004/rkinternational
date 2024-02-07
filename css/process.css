@@ -3,7 +3,7 @@ h2 , h4{
 }
 
 span{
-    color : rgb(24, 213, 74);
+    color : #3CB815;
 }
 
 p{
@@ -11,6 +11,8 @@ p{
 }
 
 img{
-    filter: contrast(1.5);
+    filter:saturate(1.5)
 }
+
+
 
