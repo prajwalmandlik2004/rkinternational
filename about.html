@@ -30,6 +30,30 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .pomplate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
+        .pomplate img {
+            max-width: 400px;
+            height: auto;
+            margin: -10px;
+            padding: 30px;
+            filter: saturate(1);
+        }
+
+        @media only screen and (max-width: 768px) {
+            .pomplate img {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -143,12 +167,12 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl">
+    <div class="container-xxl p-md-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden pe-0">
-                        <img class="img-fluid w-100" src="img/about3.jpg">
+                        <img class="img-fluid w-100" src="img/dairy_about2.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -169,6 +193,21 @@
         </div>
     </div>
     <!-- About End -->
+
+    <br>
+    <div class="scroll" style="background-color: #3CB815; padding: 5px;">
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            <h4 style="padding : 10px; color : white;"> <span style="color:gold;"> ☀ </span> Quality Features of Cattle
+                Feed - RK International <span style="color:gold;"> ☀ </span> </h4>
+        </marquee>
+    </div>
+
+    <div class="pomplate">
+        <img src="img/rk_poster1.jpg" alt="Poster 1">
+        <img src="img/rk_poster2.jpg" alt="Poster 2">
+        <img src="img/rk_poster3.jpg" alt="Poster 3">
+        <img src="img/rk_poster4.jpg" alt="Poster 4">
+    </div>
 
 
 
